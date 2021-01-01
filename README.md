@@ -1,3 +1,7 @@
+Tutorials I used 
+Learning CSV Data with React Hooks and D3 - read the comments tho - https://www.youtube.com/watch?v=OacqgtI30pk&ab_channel=CurranKelleher
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
