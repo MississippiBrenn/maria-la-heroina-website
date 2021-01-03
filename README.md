@@ -1,6 +1,9 @@
 Tutorials I used 
 Learning CSV Data with React Hooks and D3 - read the comments tho - https://www.youtube.com/watch?v=OacqgtI30pk&ab_channel=CurranKelleher
 
+RCTable 
+https://codesandbox.io/s/84vcb
+https://blog.bitsrc.io/top-5-react-table-libraries-170505f75da7
 
 # Getting Started with Create React App
 

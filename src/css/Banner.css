@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    background-color: green;
+    font-family:Georgia;
+}
+
+.introblock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+}
+
+.introblock ul {
+    list-style-type: none;
+}
+
+.instructions {
+    color:hotpink;
+    list-style-image: none;
+}
+
+
+h1 {
+    color:lavenderblush;
+    align-self:baseline;
+}
