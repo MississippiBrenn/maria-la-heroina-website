@@ -1,5 +1,6 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import UnidentifiedSearch from './UnidentifiedSearch';
 
 
 function SearchMenu() { 
@@ -11,7 +12,7 @@ function SearchMenu() {
         </TabList>
     
         <TabPanel>
-          <h2>Possible matches to unidentified women</h2>
+          <h2><UnidentifiedSearch /></h2>
         </TabPanel>
         <TabPanel>
           <h2>Possible Matches to missing Women</h2>
