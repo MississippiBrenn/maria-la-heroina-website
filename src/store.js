@@ -1,8 +1,17 @@
+import DataTest from './dataTest.js'
+
+
 export const categories = [
+    'Match to an Unidentified Case', 'Match to a Missing Case'
+]
+
+export const matches = <DataTest />
+
+export const muscles = [
     'shoulders', 'chest', 'arms', 'back','legs', 'missing', 'unidentified'
 ]
 
-export const matches = [
+export const exercises = [
         {
           id: 'overhead-press',
           title: 'Overhead Press',
@@ -52,9 +61,3 @@ export const matches = [
 
 
 
-
-export const matchez = [
-    {id:'', 
-    targetCase:'',
-    matchingCases:''}
-]

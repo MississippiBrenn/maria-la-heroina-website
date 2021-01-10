@@ -40,10 +40,6 @@ function UnidentifiedSearch() {
             <p>{`${searchButtonClicked}`}</p>
                 {searchButtonClicked && <TableToReturn />}
                 <button onClick={handleClick}>Search</button>
-
-            
-
-
         </div>
     );
 }

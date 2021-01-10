@@ -1,4 +1,7 @@
+use tutorial to print out state and hard code into store
+
 Tutorials I used 
+Learn React and Material UI code realm youtube
 Learning CSV Data with React Hooks and D3 - read the comments tho - https://www.youtube.com/watch?v=OacqgtI30pk&ab_channel=CurranKelleher
 
 RCTable 
