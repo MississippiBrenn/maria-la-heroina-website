@@ -9,6 +9,7 @@ function TableToReturn() {
     const [data, setData] = useState([]);
     useEffect(() => {
         csv(datacsv).then(setData);
+        console.log('data', data)
     }, []);
 
   

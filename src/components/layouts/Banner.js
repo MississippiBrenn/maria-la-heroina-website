@@ -1,10 +1,8 @@
-import { Component } from 'react';
-import '../css/Banner.css';
-import MariaImage from '../images/indigenousMaria.jpg'
+import React from 'react';
+import '../../css/Banner.css';
+import MariaImage from '../../images/indigenousMaria.jpg'
 
-class Banner extends Component {
-    render() {
-        return (
+export default props =>
             <div>
                 <h1 className='introHeader'>Working with Maria</h1>
                 <div className='introblock'>
@@ -24,8 +22,3 @@ class Banner extends Component {
                     </ul>
                 </div>
             </div>
-        );
-    }
-}
-
-export default Banner;

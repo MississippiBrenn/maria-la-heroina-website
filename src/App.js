@@ -1,20 +1,30 @@
+import React, { Component, Fragment } from 'react'
 import './css/App.css';
-import Banner from './components/Banner.js';
-import Table from './components/Table.js';
-import Table2 from './components/Table2.js';
+import { Header, Banner, Footer } from './components/layouts'
 import SearchMenu from './components/SearchMenu.js'
-import Footer from './components/Footer.js'
+import Matches from './components/searches'
 
-function App() {
-  return (
-    <div className="App">
+import { categories, matches } from "./store.js";
+
+export default class extends Component {
+    state = {
+      matches
+    }
+
+  getMatchesByCategories() {
+    return this.state.matches
+  }
+  render() {
+console.log(this.getMatchesByCategories())
+    return (
+    <Fragment>
+      <Header />
       <Banner />
-      <SearchMenu />
-      {/* <Table />
-      <Table2 />
-      <Footer />  */}
-    </div>
-  );
-}
 
-export default App;
+      <Matches matches={matches}/>
+      {/* <SearchMenu /> */}
+      <Footer categories={categories}/>
+    </Fragment>
+    )  
+  }
+}
