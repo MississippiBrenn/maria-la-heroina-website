@@ -9,6 +9,10 @@ import ListItemText from '@material-ui/core/ListItem';
 const styles = {
     Paper: {
         padding: 20, marginTop: 10, marginBottom: 20, height: 500, ovrerflow: 'auto'
+    },
+    nested: {
+        backgroundColor: 'grey',
+        paddingLeft: 10
     }
 }
 
@@ -34,10 +38,7 @@ export default ({
                             <List component="ul">
                                 {exercises.map(({ title, id }) =>
                                     <ListItem key ={id} button onClick={() => onSelect(id)}>
-                                        <ListItemText
-                                            primary={title}
-                                            
-                                        />
+                                        {title}
                                     </ListItem>
                                 )}
                             </List>
