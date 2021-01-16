@@ -5,13 +5,13 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 
 
- export default ({ muscles, category, onSelect }) => {
+ export default ({ matchTo, category, onSelect }) => {
    const index = category
-   ? muscles.findIndex(group => group == category)+1
+   ? matchTo.findIndex(group => group === category)+1
    : 0 
 
   const onIndexSelect = (e, index) =>
-    onSelect(index === 0 ? '': muscles[index-1]) 
+    onSelect(index === 0 ? '': matchTo[index-1]) 
    return  <Paper>
       <Tabs
         value={index}  
@@ -21,7 +21,7 @@ import Tab from '@material-ui/core/Tab';
         centered
       >
         <Tab label="All" />
-        {muscles.map(group => 
+        {matchTo.map(group => 
         <Tab key={group} label={group} />
           )}
     

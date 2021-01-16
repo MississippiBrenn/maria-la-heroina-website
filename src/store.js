@@ -1,3 +1,43 @@
+export const matchTo = ['Unidentified', 'Missing']
+
+export const matchDatabase = [
+  {
+  id: 1,
+  title: 'UIDwithRace10miles',
+  type: 'Unidentified',
+  csvLocation: './csvs/uid_possible_matches_10_miles_with_race.csv',
+  range: 10,
+  race: true
+},
+{
+  id: 2,
+  title: 'UIDwithoutRace10miles',
+  type:'Unidentified',
+  csvLocation: './csvs/uid_possible_matches_10_miles_with_out_race.csv',
+  range: 10,
+  race: true
+
+}, 
+{
+  id: 3,
+  title: 'MissingwithRace10miles',
+  type:'Missing',
+  csvLocation: './csvs/uid_possible_matches_10_miles_with_race.csv',
+  range: 10,
+  race: true
+},
+{
+  id: 4,
+  title: 'MissingwithoutRace10miles',
+  type:'Missing',
+  csvLocation: './csvs/uid_possible_matches_10_miles_with_out_race.csv',
+  range: 10,
+  race: true
+},
+
+]
+
+
 export const muscles = ['shoulders', 'chest', 'arms', 'back', 'legs']
 
 export const exercises = [

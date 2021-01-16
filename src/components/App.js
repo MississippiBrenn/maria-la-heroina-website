@@ -3,12 +3,14 @@ import { Header, Banner, Footer } from './layouts'
 import SearchMenu from './SearchMenu.js'
 import Exercises from './exercises'
 
-import {  muscles, exercises } from "../store.js";
+import {  matchTo, matchDatabase, muscles, exercises } from "../store.js";
 
 export default class extends Component {
     state = {
       exercises,
-      exercise:{}
+      exercise:{}, 
+      matchDatabase,
+      matchEntry:{}
     }
 
     //accept data as props and pass them down for rendering
@@ -26,6 +28,21 @@ export default class extends Component {
     }, {})
     )
   }
+
+  getMatchByCategory() {
+    return Object.entries(this.state.matchDatabase.reduce((matchDatabase, matchEntry) => {
+      const { type } = matchEntry
+
+        // spread out elements into a new array 
+      matchDatabase[type] = matchDatabase[type] 
+      ? [...matchDatabase[type], matchEntry] 
+      : [matchEntry]
+
+      return matchDatabase
+    }, {})
+    )
+  }
+
   handleCategorySelected = category  => {
     this.setState({
       category
@@ -42,20 +59,25 @@ export default class extends Component {
   }
 
   render() {
-  const exercises = this.getExercisesByMuscles(),
-  { category, exercise } = this.state
+  // const exercises = this.getExercisesByMuscles(),
+  // { category, exercise } = this.state
+
+  const matchDatabase = this.getMatchByCategory(),
+  {category, matchEntry} = this.state 
+  
     return (
     <Fragment>
       <Header />
       {/* <Banner /> */}
-      <Exercises
+      {/* <Exercises
       exercise = {exercise}
       category={category} 
       exercises={exercises}
       onSelect={this.handleExerciseSelected}
-      />
+      /> */}
       {/* <SearchMenu /> */}
       <Footer 
+      matchTo={matchTo}
       category={category}
       muscles={muscles}
       onSelect={this.handleCategorySelected}/>
