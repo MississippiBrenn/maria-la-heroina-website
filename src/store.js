@@ -3,7 +3,7 @@ export const matchTo = ['Unidentified', 'Missing']
 export const matchDatabase = [
   {
   id: 1,
-  title: 'UIDwithRace10miles',
+  title: 'Unidentified with race within 10 miles',
   type: 'Unidentified',
   csvLocation: './csvs/uid_possible_matches_10_miles_with_race.csv',
   range: 10,
@@ -11,7 +11,7 @@ export const matchDatabase = [
 },
 {
   id: 2,
-  title: 'UIDwithoutRace10miles',
+  title: 'Unidentified without race within 10 miles',
   type:'Unidentified',
   csvLocation: './csvs/uid_possible_matches_10_miles_with_out_race.csv',
   range: 10,
@@ -20,7 +20,7 @@ export const matchDatabase = [
 }, 
 {
   id: 3,
-  title: 'MissingwithRace10miles',
+  title: 'Missing with race within 10 miles',
   type:'Missing',
   csvLocation: './csvs/uid_possible_matches_10_miles_with_race.csv',
   range: 10,
@@ -28,7 +28,7 @@ export const matchDatabase = [
 },
 {
   id: 4,
-  title: 'MissingwithoutRace10miles',
+  title: 'Unidentified without race within 10 miles',
   type:'Missing',
   csvLocation: './csvs/uid_possible_matches_10_miles_with_out_race.csv',
   range: 10,

@@ -17,17 +17,9 @@ const styles = {
 }
 
 export default ({
-    // exercises,
-    // category,
-    // onSelect,
-    // exercise: {
-    //     id,
-    //     title='Welcome!',
-    //     description='Please select an set of matches from the list on the left'
-    // }, 
     matchDatabase, 
     category, 
-
+    onSelect,
     matchDBEntry: {
         id, 
         title='Welcome', 
@@ -46,7 +38,7 @@ export default ({
                             <List component="ul">
                                 {matchDatabase.map(({ title, id }) =>
                                     <ListItem key ={id} button 
-                                    // onClick={() => onSelect(id)}
+                                    onClick={() => onSelect(id)}
                                     >
                                         {title}
                                     </ListItem>
@@ -62,7 +54,7 @@ export default ({
             <Paper style={styles.Paper}>
                 <Fragment>
                     <Typography variant="h4">{title} </Typography> 
-                    <Typography variant="subtitle1" style={{ marginTop: 20 }} >  {type}</Typography>
+                    <Typography variant="subtitle1" style={{ marginTop: 20 }} >{type}</Typography>
                 
                 </Fragment>
             </ Paper>

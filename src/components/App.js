@@ -60,6 +60,17 @@ export default class extends Component {
     }))
   }
 
+   //callback that retrieves previous state(exercises) as well as props
+  //asynchronous setState
+  // to avoid state being changed during call 
+  handleDBEntrySelected = id  => {
+    this.setState(({ matchDatabase }) => ({
+      matchDBEntry: matchDatabase.find(entry => entry.id === id )
+    }))
+  }
+
+
+
   render() {
   // const exercises = this.getExercisesByMuscles(),
   // { category, exercise } = this.state
@@ -82,6 +93,7 @@ export default class extends Component {
       matchDBEntry={matchDBEntry}
       category={category}
       matchDatabase={matchDatabase}
+      onSelect={this.handleDBEntrySelected}
       />
       <Footer 
       matchTo={matchTo}
