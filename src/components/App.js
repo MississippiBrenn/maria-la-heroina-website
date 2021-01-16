@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import { Header, Banner, Footer } from './layouts'
+import { Banner, Footer } from './layouts'
 import Matches from './matches'
 
 import {  matchTo, matchDatabase} from "../store.js";
@@ -45,16 +45,12 @@ export default class extends Component {
 
 
   render() {
-  // const exercises = this.getExercisesByMuscles(),
-  // { category, exercise } = this.state
-
   const matchDatabase = this.getMatchByCategory(),
   {category, matchDBEntry} = this.state 
   
     return (
     <Fragment>
-      <Header />
-      {/* <Banner /> */}
+      <Banner />
       <Matches 
       matchDBEntry={matchDBEntry}
       category={category}
