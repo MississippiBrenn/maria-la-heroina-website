@@ -1,28 +1,23 @@
 {
   "files": {
-    "main.css": "/maria-la-heroina-website/static/css/main.8fb7573a.chunk.css",
-    "main.js": "/maria-la-heroina-website/static/js/main.f769a16e.chunk.js",
-    "main.js.map": "/maria-la-heroina-website/static/js/main.f769a16e.chunk.js.map",
+    "main.css": "/maria-la-heroina-website/static/css/main.873772b0.chunk.css",
+    "main.js": "/maria-la-heroina-website/static/js/main.cc63c396.chunk.js",
+    "main.js.map": "/maria-la-heroina-website/static/js/main.cc63c396.chunk.js.map",
     "runtime-main.js": "/maria-la-heroina-website/static/js/runtime-main.31869f4e.js",
     "runtime-main.js.map": "/maria-la-heroina-website/static/js/runtime-main.31869f4e.js.map",
-    "static/css/2.27175f2b.chunk.css": "/maria-la-heroina-website/static/css/2.27175f2b.chunk.css",
-    "static/js/2.4a53d664.chunk.js": "/maria-la-heroina-website/static/js/2.4a53d664.chunk.js",
-    "static/js/2.4a53d664.chunk.js.map": "/maria-la-heroina-website/static/js/2.4a53d664.chunk.js.map",
+    "static/js/2.6865e5cd.chunk.js": "/maria-la-heroina-website/static/js/2.6865e5cd.chunk.js",
+    "static/js/2.6865e5cd.chunk.js.map": "/maria-la-heroina-website/static/js/2.6865e5cd.chunk.js.map",
     "static/js/3.115efabe.chunk.js": "/maria-la-heroina-website/static/js/3.115efabe.chunk.js",
     "static/js/3.115efabe.chunk.js.map": "/maria-la-heroina-website/static/js/3.115efabe.chunk.js.map",
     "index.html": "/maria-la-heroina-website/index.html",
-    "static/css/2.27175f2b.chunk.css.map": "/maria-la-heroina-website/static/css/2.27175f2b.chunk.css.map",
-    "static/css/main.8fb7573a.chunk.css.map": "/maria-la-heroina-website/static/css/main.8fb7573a.chunk.css.map",
-    "static/js/2.4a53d664.chunk.js.LICENSE.txt": "/maria-la-heroina-website/static/js/2.4a53d664.chunk.js.LICENSE.txt",
-    "static/media/indigenousMaria.ee66ef4f.jpg": "/maria-la-heroina-website/static/media/indigenousMaria.ee66ef4f.jpg",
-    "static/media/uid_possible_matches_10_miles_with_out_race.0831536a.csv": "/maria-la-heroina-website/static/media/uid_possible_matches_10_miles_with_out_race.0831536a.csv",
-    "static/media/uid_possible_matches_10_miles_with_race.de52df38.csv": "/maria-la-heroina-website/static/media/uid_possible_matches_10_miles_with_race.de52df38.csv"
+    "static/css/main.873772b0.chunk.css.map": "/maria-la-heroina-website/static/css/main.873772b0.chunk.css.map",
+    "static/js/2.6865e5cd.chunk.js.LICENSE.txt": "/maria-la-heroina-website/static/js/2.6865e5cd.chunk.js.LICENSE.txt",
+    "static/media/indigenousMaria.ee66ef4f.jpg": "/maria-la-heroina-website/static/media/indigenousMaria.ee66ef4f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.31869f4e.js",
-    "static/css/2.27175f2b.chunk.css",
-    "static/js/2.4a53d664.chunk.js",
-    "static/css/main.8fb7573a.chunk.css",
-    "static/js/main.f769a16e.chunk.js"
+    "static/js/2.6865e5cd.chunk.js",
+    "static/css/main.873772b0.chunk.css",
+    "static/js/main.cc63c396.chunk.js"
   ]
 }
