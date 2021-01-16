@@ -2,15 +2,17 @@ import React, { Component, Fragment } from 'react'
 import { Header, Banner, Footer } from './layouts'
 import SearchMenu from './SearchMenu.js'
 import Exercises from './exercises'
+import Matches from './matches'
 
 import {  matchTo, matchDatabase, muscles, exercises } from "../store.js";
+
 
 export default class extends Component {
     state = {
       exercises,
       exercise:{}, 
       matchDatabase,
-      matchEntry:{}
+      matchDBEntry:{}
     }
 
     //accept data as props and pass them down for rendering
@@ -63,7 +65,7 @@ export default class extends Component {
   // { category, exercise } = this.state
 
   const matchDatabase = this.getMatchByCategory(),
-  {category, matchEntry} = this.state 
+  {category, matchDBEntry} = this.state 
   
     return (
     <Fragment>
@@ -76,6 +78,11 @@ export default class extends Component {
       onSelect={this.handleExerciseSelected}
       /> */}
       {/* <SearchMenu /> */}
+      <Matches 
+      matchDBEntry={matchDBEntry}
+      category={category}
+      matchDatabase={matchDatabase}
+      />
       <Footer 
       matchTo={matchTo}
       category={category}

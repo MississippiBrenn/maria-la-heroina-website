@@ -7,7 +7,7 @@ import Tab from '@material-ui/core/Tab';
 
  export default ({ matchTo, category, onSelect }) => {
    const index = category
-   ? matchTo.findIndex(group => group === category)+1
+   ? matchTo.findIndex(group => group == category)+1
    : 0 
 
   const onIndexSelect = (e, index) =>
