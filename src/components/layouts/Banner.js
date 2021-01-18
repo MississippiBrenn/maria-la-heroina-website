@@ -64,7 +64,7 @@ export default function CustomizedAccordions() {
                 <AccordionDetails>
                     <Typography>
                         <div>
-                            <img src={MariaImage} alt='indigenous maria with arms outstretched' />
+                            {/* <img src={MariaImage} alt='indigenous maria with arms outstretched' /> */}
                             <ul className='instructions'>
                                 <li>Thank Maria for all the work that she has done</li>
                                 <li>Experience thoughts of joy and hope for the work Maria has accomplished</li>

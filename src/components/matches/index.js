@@ -6,6 +6,8 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItem';
 
+import TableToReturn from '../tables/TableToReturn';
+
 const styles = {
     Paper: {
         padding: 20, marginTop: 10, marginBottom: 20, height: 500, ovrerflow: 'auto'
@@ -47,15 +49,14 @@ export default ({
                         </Fragment>
                         : null
                 )}
-
             </Paper>
         </Grid>
         <Grid item sm>
             <Paper style={styles.Paper}>
                 <Fragment>
                     <Typography variant="h4">{title} </Typography> 
-                    <Typography variant="subtitle1" style={{ marginTop: 20 }} >{type}</Typography>
-                
+                    <Typography variant="subtitle1" style={{ marginTop: 20 }}>{type}</Typography>
+                    <TableToReturn welcomeMessage={title}/>
                 </Fragment>
             </ Paper>
         </Grid>

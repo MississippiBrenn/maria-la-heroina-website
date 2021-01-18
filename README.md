@@ -11,7 +11,7 @@ https://blog.bitsrc.io/top-5-react-table-libraries-170505f75da7
 https://www.youtube.com/watch?v=v_A0wJDV5AU&ab_channel=CodeRealm
 
 github pages + react 
-https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
+
 
 # Getting Started with Create React App
 

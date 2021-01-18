@@ -2,10 +2,13 @@ import { useEffect, useState } from 'react';
 import { csv } from 'd3';
 import datacsv from '../../csvs/uid_possible_matches_10_miles_with_race.csv';
 import Table from "rc-table";
-// import '../css/TableToReturn.css'
+import '../../css/TableToReturn.css';
 
 
-function TableToReturn() {
+function TableToReturn(props) {
+    console.log(props.welcomeMessage)
+    const dataLocation =  props.welcomeMessage  != 'Welcome'
+    console.log(dataLocation)
     const [data, setData] = useState([]);
     useEffect(() => {
         csv(datacsv).then(setData);
@@ -14,9 +17,9 @@ function TableToReturn() {
   
         const columns = [
             {
-                title: "Unidentified Namus Case",
-                dataIndex: "uid_case",
-                key: "uid_case",
+                title: "Namus Case",
+                dataIndex: "case",
+                key: "case",
                 width: 500,
                 
 
@@ -32,15 +35,14 @@ function TableToReturn() {
     
     return (
         <div>
-            <h2>Matches within a 10 mile radius with race</h2>
-        <Table
+            { dataLocation && <Table 
                 columns={columns}
                 data={data}
-                tableLayout="auto" />
+                tableLayout="auto" />}
 
         </div>
     );
+    }
 
-}
 
 export default TableToReturn;

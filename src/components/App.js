@@ -1,8 +1,11 @@
-import React, { Component, Fragment } from 'react'
-import { Banner, Footer } from './layouts'
-import Matches from './matches'
+import React, { Component, Fragment } from 'react';
+import { Banner, Footer } from './layouts';
+import Matches from './matches';
 
 import {  matchTo, matchDatabase} from "../store.js";
+import TableToReturn from './tables/TableToReturn';
+
+import  BasicTable  from './tables/basicTable.js';
 
 
 export default class extends Component {
@@ -61,6 +64,8 @@ export default class extends Component {
       matchTo={matchTo}
       category={category}
       onSelect={this.handleCategorySelected}/>
+
+      {/* <TableToReturn></TableToReturn> */}
     </Fragment>
     )  
   }
