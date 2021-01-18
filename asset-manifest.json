@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/maria-la-heroina-website/static/css/main.72e8b015.chunk.css",
-    "main.js": "/maria-la-heroina-website/static/js/main.aa275008.chunk.js",
-    "main.js.map": "/maria-la-heroina-website/static/js/main.aa275008.chunk.js.map",
+    "main.js": "/maria-la-heroina-website/static/js/main.2c5f673e.chunk.js",
+    "main.js.map": "/maria-la-heroina-website/static/js/main.2c5f673e.chunk.js.map",
     "runtime-main.js": "/maria-la-heroina-website/static/js/runtime-main.c20360e9.js",
     "runtime-main.js.map": "/maria-la-heroina-website/static/js/runtime-main.c20360e9.js.map",
-    "static/js/2.c66b09e1.chunk.js": "/maria-la-heroina-website/static/js/2.c66b09e1.chunk.js",
-    "static/js/2.c66b09e1.chunk.js.map": "/maria-la-heroina-website/static/js/2.c66b09e1.chunk.js.map",
+    "static/js/2.69ab4786.chunk.js": "/maria-la-heroina-website/static/js/2.69ab4786.chunk.js",
+    "static/js/2.69ab4786.chunk.js.map": "/maria-la-heroina-website/static/js/2.69ab4786.chunk.js.map",
     "static/js/3.00fc9a04.chunk.js": "/maria-la-heroina-website/static/js/3.00fc9a04.chunk.js",
     "static/js/3.00fc9a04.chunk.js.map": "/maria-la-heroina-website/static/js/3.00fc9a04.chunk.js.map",
     "index.html": "/maria-la-heroina-website/index.html",
     "static/css/main.72e8b015.chunk.css.map": "/maria-la-heroina-website/static/css/main.72e8b015.chunk.css.map",
-    "static/js/2.c66b09e1.chunk.js.LICENSE.txt": "/maria-la-heroina-website/static/js/2.c66b09e1.chunk.js.LICENSE.txt",
+    "static/js/2.69ab4786.chunk.js.LICENSE.txt": "/maria-la-heroina-website/static/js/2.69ab4786.chunk.js.LICENSE.txt",
     "static/media/indigenousMaria.ee66ef4f.jpg": "/maria-la-heroina-website/static/media/indigenousMaria.ee66ef4f.jpg",
     "static/media/uid_possible_matches_10_miles_with_race.6630160b.csv": "/maria-la-heroina-website/static/media/uid_possible_matches_10_miles_with_race.6630160b.csv"
   },
   "entrypoints": [
     "static/js/runtime-main.c20360e9.js",
-    "static/js/2.c66b09e1.chunk.js",
+    "static/js/2.69ab4786.chunk.js",
     "static/css/main.72e8b015.chunk.css",
-    "static/js/main.aa275008.chunk.js"
+    "static/js/main.2c5f673e.chunk.js"
   ]
 }
