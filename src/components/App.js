@@ -3,9 +3,7 @@ import { Banner, Footer } from './layouts';
 import Matches from './matches';
 
 import {  matchTo, matchDatabase} from "../store.js";
-import TableToReturn from './tables/TableToReturn';
 
-import  BasicTable  from './tables/basicTable.js';
 
 
 export default class extends Component {
@@ -65,7 +63,6 @@ export default class extends Component {
       category={category}
       onSelect={this.handleCategorySelected}/>
 
-      {/* <TableToReturn></TableToReturn> */}
     </Fragment>
     )  
   }

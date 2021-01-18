@@ -5,10 +5,7 @@ import Table from "rc-table";
 import '../../css/TableToReturn.css';
 
 
-function TableToReturn(props) {
-    console.log(props.welcomeMessage)
-    const dataLocation =  props.welcomeMessage  != 'Welcome'
-    console.log(dataLocation)
+function TableToReturn1(props) {
     const [data, setData] = useState([]);
     useEffect(() => {
         csv(datacsv).then(setData);
@@ -35,14 +32,15 @@ function TableToReturn(props) {
     
     return (
         <div>
-            { dataLocation && <Table 
+            <h3>{props.title}</h3>
+             <Table 
                 columns={columns}
                 data={data}
-                tableLayout="auto" />}
+                tableLayout="auto" />
 
         </div>
     );
     }
 
 
-export default TableToReturn;
+export default TableToReturn1;

@@ -6,16 +6,12 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItem';
 
-import TableToReturn from '../tables/TableToReturn';
+import TableWrapper from '../tables';
 
 const styles = {
     Paper: {
         padding: 20, marginTop: 10, marginBottom: 20, height: 500, ovrerflow: 'auto'
     },
-    nested: {
-        backgroundColor: 'grey',
-        paddingLeft: 10
-    }
 }
 
 export default ({
@@ -24,6 +20,7 @@ export default ({
     onSelect,
     matchDBEntry: {
         id, 
+        csvLocation,
         title='Welcome', 
         type='Please select a set of matches from the list on the left'
     }
@@ -55,8 +52,8 @@ export default ({
             <Paper style={styles.Paper}>
                 <Fragment>
                     <Typography variant="h4">{title} </Typography> 
-                    <Typography variant="subtitle1" style={{ marginTop: 20 }}>{type}</Typography>
-                    <TableToReturn welcomeMessage={title}/>
+                    <Typography variant="subtitle1" style={{ marginTop: 20 }}>{type} {csvLocation}</Typography>
+                    <TableWrapper title={title}></TableWrapper>
                 </Fragment>
             </ Paper>
         </Grid>
