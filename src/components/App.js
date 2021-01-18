@@ -3,6 +3,7 @@ import { Banner, Footer } from './layouts';
 import Matches from './matches';
 
 import {  matchTo, matchDatabase} from "../store.js";
+import BasicTable from './tables/basicTable';
 
 
 
@@ -51,6 +52,7 @@ export default class extends Component {
   
     return (
     <Fragment>
+      <BasicTable />
       <Banner />
       <Matches 
       matchDBEntry={matchDBEntry}
