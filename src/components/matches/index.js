@@ -4,13 +4,12 @@ import Paper from '@material-ui/core/Paper'
 import { Typography } from '@material-ui/core';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItem';
 
 import TableWrapper from '../tables';
 
 const styles = {
     Paper: {
-        padding: 20, marginTop: 10, marginBottom: 20, height: 500, ovrerflow: 'auto'
+        padding: 20, marginTop: 10, marginBottom: 20, height: 500, overflow: 'auto'
     },
 }
 
@@ -20,7 +19,6 @@ export default ({
     onSelect,
     matchDBEntry: {
         id, 
-        csvLocation,
         title='Welcome', 
         type='Please select a set of matches from the list on the left'
     }
@@ -52,7 +50,7 @@ export default ({
             <Paper style={styles.Paper}>
                 <Fragment>
                     <Typography variant="h4">{title} </Typography> 
-                    <Typography variant="subtitle1" style={{ marginTop: 20 }}>{type} {csvLocation}</Typography>
+                    <Typography variant="subtitle1" style={{ marginTop: 20 }}></Typography>
                     <TableWrapper title={title}></TableWrapper>
                 </Fragment>
             </ Paper>

@@ -17,22 +17,19 @@ function TableToReturn2(props) {
                 title: "Namus Case",
                 dataIndex: "case",
                 key: "case",
-                width: 500,
-                
 
             },
             {
                 title: "Possible Matches",
                 dataIndex: "possible_matches",
                 key: "possible_matches",
-                width:500,
+                
             },
        
         ];
     
     return (
         <div>
-            <h3>{props.title}</h3>
              <Table 
                 columns={columns}
                 data={data}

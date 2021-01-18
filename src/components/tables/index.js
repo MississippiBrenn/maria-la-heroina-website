@@ -1,14 +1,11 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 import TableToReturn1 from './TableToReturn1';
 import TableToReturn2 from './TableToReturn2';
 
-
 function TableWrapper(props) {
     const title = props.title
-    
-    console.log(props)
-    return (
+        return (
         <div className="container">
             {(() => {
 
