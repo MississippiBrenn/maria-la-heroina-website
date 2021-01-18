@@ -19,8 +19,7 @@ export default ({
     onSelect,
     matchDBEntry: {
         id, 
-        title='Welcome', 
-        type='Please select a set of matches from the list on the left'
+        title='Welcome, Please select a set of matches from the list on the left', 
     }
 }) =>
     <Grid container>
