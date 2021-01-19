@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { Banner, Footer } from './layouts';
+import { Header, Banner, Footer } from './layouts';
 import Matches from './matches';
 
 import {  matchTo, matchDatabase} from "../store.js";
@@ -49,6 +49,7 @@ export default class extends Component {
   
     return (
     <>
+      <Header />
       <Banner />
       <Matches 
       matchDBEntry={matchDBEntry}
