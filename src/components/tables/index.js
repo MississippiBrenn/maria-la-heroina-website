@@ -1,7 +1,7 @@
 import React from 'react';
 
-import TableToReturn1 from './TableToReturn1';
-import TableToReturn2 from './TableToReturn2';
+import Table1 from './Table1';
+import Table2 from './Table2';
 
 function TableWrapper(props) {
     const title = props.title
@@ -12,11 +12,11 @@ function TableWrapper(props) {
                 switch (title) {
                     case 'Unidentified with race within 10 miles':
                         return (
-                            <TableToReturn1 title={title} />
+                            <Table1/>
                         )
                     case 'Unidentified without race within 10 miles':
                         return (
-                            <TableToReturn2 title={title}/>
+                            <Table2 />
                         )
                     default:
                         return (

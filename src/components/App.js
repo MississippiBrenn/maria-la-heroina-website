@@ -3,10 +3,6 @@ import { Banner, Footer } from './layouts';
 import Matches from './matches';
 
 import {  matchTo, matchDatabase} from "../store.js";
-import BasicTable from './tables/basicTable';
-import FilteringTable from './tables/filteringTable'
-
-
 
 export default class extends Component {
     state = {
@@ -52,8 +48,7 @@ export default class extends Component {
   {category, matchDBEntry} = this.state 
   
     return (
-    <Fragment>
-      <FilteringTable />
+    <>
       <Banner />
       <Matches 
       matchDBEntry={matchDBEntry}
@@ -66,7 +61,7 @@ export default class extends Component {
       category={category}
       onSelect={this.handleCategorySelected}/>
 
-    </Fragment>
+    </>
     )  
   }
 }

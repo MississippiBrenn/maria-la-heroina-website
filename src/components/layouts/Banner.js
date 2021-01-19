@@ -39,6 +39,10 @@ const AccordionSummary = withStyles({
             margin: '12px 0',
         },
     },
+    expandIcon: {
+        order: -1,
+        margin: 5
+    },
     expanded: {},
 })(MuiAccordionSummary);
 
@@ -82,12 +86,13 @@ export default function CustomizedAccordions() {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                        <li>Pick a tab - you can search by missing case or by unidentified </li>
-                        <li>Enter in your search criteria for distance of cases and race</li>
-                        <li>Maria already has filtered the data based on age and date missing</li>
-                        <li>If you do not fill in a case number, Maria will return all possible matches for your search criteria</li>
-                        <li>Optional: Enter in the NAMUS case for the woman you are looking for</li>
-                        <li>You now have a table with all potential matches from Namus</li>
+                        <li>Maria already has filtered for possible matches based on age and date missing</li>
+                        <li>Select a set of matches from the left panel</li>
+                        <li>Optional: Enter in numbers from the NAMUS case number for the woman you are looking for</li>
+                        <li>You now have a table with all potential matches from NAMUS</li>
+                        <li> For ease of use, you are supplied the url from NAMUS</li>
+                        <li>Visit the url provided(the case number is in the url) to further research the match</li>
+                        <li>It is recommended you have an account with NAMUS.org to check already submitted matches</li>
                     </Typography>
                 </AccordionDetails>
             </Accordion>

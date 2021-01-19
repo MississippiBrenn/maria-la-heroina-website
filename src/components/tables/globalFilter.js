@@ -1,4 +1,3 @@
-import { Divider } from '@material-ui/core';
 import React, { Component } from 'react';
 
 export const GlobalFilter = ({filter, setFilter}) => {
@@ -10,3 +9,5 @@ export const GlobalFilter = ({filter, setFilter}) => {
         </span>
     </div>)
 }
+
+// this will only work if data is loaded on client side, once we move off csvs will eed to chnage
