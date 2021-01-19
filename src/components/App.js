@@ -4,6 +4,7 @@ import Matches from './matches';
 
 import {  matchTo, matchDatabase} from "../store.js";
 import BasicTable from './tables/basicTable';
+import FilteringTable from './tables/filteringTable'
 
 
 
@@ -52,7 +53,7 @@ export default class extends Component {
   
     return (
     <Fragment>
-      <BasicTable />
+      <FilteringTable />
       <Banner />
       <Matches 
       matchDBEntry={matchDBEntry}
