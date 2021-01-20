@@ -86,7 +86,7 @@ export default function CustomizedAccordions() {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                        <li>Maria already has filtered for possible matches based on age and date missing</li>
+                    <li>Maria already has filtered for possible matches based on age and date missing</li>
                         <li>Click on the title for a set of matches from the left panel</li>
                         <li>Optional: Enter in numbers from the NAMUS case number for the woman you are looking for</li>
                         <li>You now have a table with all potential matches from NAMUS</li>

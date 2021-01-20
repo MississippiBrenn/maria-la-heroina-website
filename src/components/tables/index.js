@@ -4,11 +4,11 @@ import Table1 from './Table1';
 import Table2 from './Table2';
 import Table4 from './Table4';
 import Table5 from './Table5';
+import Table6 from './Table6';
+import Table7 from './Table7';
+
 import TableBasic from './TableBasic';
 import csv3 from '../../csvs/uid_possible_matches_50_miles_with_race.csv';
-
-
-
 
 function TableWrapper(props) {
     const title = props.title
@@ -24,7 +24,6 @@ function TableWrapper(props) {
                     case 'Unidentified without race within 10 miles':
                         return (
                             <Table2 />
-
                         )
                     case 'Unidentified with race within 50 miles':
                         return (
@@ -37,6 +36,14 @@ function TableWrapper(props) {
                     case 'Unidentified with race all matches':
                         return (
                             <Table5 />
+                            )
+                    case 'Unidentified without race all matches part 1':
+                        return (
+                            <Table6 />
+                            )
+                    case 'Unidentified without race all matches part 2':
+                        return (
+                            <Table7 />
                             )
                     default:
                         return (

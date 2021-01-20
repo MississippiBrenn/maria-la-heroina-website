@@ -57,12 +57,12 @@ export default class extends Component {
       matchDatabase={matchDatabase}
       onSelect={this.handleDBEntrySelected}
       />
-      <Footer 
+      {/* <Footer 
       matchTo={matchTo}
       category={category}
-      onSelect={this.handleCategorySelected}/>
+      onSelect={this.handleCategorySelected}/>*/}
 
-    </>
+    </> 
     )  
   }
 }
