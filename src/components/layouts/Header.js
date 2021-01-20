@@ -9,7 +9,7 @@ export default props =>
 <AppBar position="static">
     <Toolbar>
       <Typography variant="h4" color="inherit" style={{flex: 1}} gutterBottom>
-        Maria LaHeroina
+        Maria la Heroina
       </Typography>
       <Typography variant="h6" color="inherit" style={{flex: 1}} gutterBottom>
       Maria is a tool for matching missing and unidentified women in the National Missing and Unidentified Persons System(NAMUS).

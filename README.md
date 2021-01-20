@@ -13,6 +13,32 @@ https://www.youtube.com/watch?v=v_A0wJDV5AU&ab_channel=CodeRealm
 github pages + react 
 
 
+ile src/csvs/missing_possible_matches_10_miles_with_out_race.csv is 97.67 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: File src/csvs/missing_possible_matches_50_miles_with_out_race.csv is 97.38 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: File src/csvs/missing_possible_matches_all_with_out_race.csv is 76.68 MB; this is larger than GitHub's recommended maximum fi
+
+ (main) $ git push
+Enumerating objects: 39, done.
+Counting objects: 100% (39/39), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (26/26), done.
+Writing objects: 100% (26/26), 10.04 MiB | 341.00 KiB/s, done.
+Total 26 (delta 16), reused 0 (delta 0)
+remote: Resolving deltas: 100% (16/16), completed with 7 local objects.
+remote: warning: File src/csvs/missing_possible_matches_10_miles_with_out_race.csv is 97.67 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: File src/csvs/missing_possible_matches_50_miles_with_out_race.csv is 97.38 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: File src/csvs/missing_possible_matches_all_with_out_race.csv is 76.68 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+remote: error: Trace: 0ef467476dc653a9a9fec223db92c7bd287b0d14a2f317bfbc52aa87f78fc75a
+remote: error: See http://git.io/iEPt8g for more information.
+remote: error: File src/csvs/uid_possible_matches_all_with_out_race.csv is 126.79 MB; this exceeds GitHub's file size limit of 100.00 MB
+To https://github.com/MississippiBrenn/maria-la-heroina-website.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://github.com/MississippiBrenn/maria-la-heroina-website.git'
+ (main) $ git add .
+ (main) $ git ci 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
