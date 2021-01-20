@@ -3,6 +3,7 @@ import React from 'react';
 import Table1 from './Table1';
 import Table2 from './Table2';
 import Table4 from './Table4';
+import Table5 from './Table5';
 import TableBasic from './TableBasic';
 import csv3 from '../../csvs/uid_possible_matches_50_miles_with_race.csv';
 
@@ -33,6 +34,10 @@ function TableWrapper(props) {
                         return (
                             <Table4 />
                         )
+                    case 'Unidentified with race all matches':
+                        return (
+                            <Table5 />
+                            )
                     default:
                         return (
                             <div></div>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { csv } from 'd3';
 import { useTable, useGlobalFilter } from 'react-table';
-import datacsv from '../../csvs/uid_possible_matches_10_miles_with_race.csv';
+import datacsv from '../../csvs/uid_possible_matches_all_with_race.csv';
 import { COLUMNS } from './columns';
 import '../../css/basicTable.css';
 
