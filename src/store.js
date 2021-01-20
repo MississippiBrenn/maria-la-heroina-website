@@ -44,19 +44,19 @@ race: true
 },
 {
 id: 6,
-title: 'Unidentified without race within 50 miles',
-type:'Missing',
-csvLocation: '../../csvs/uid_possible_matches_50_miles_with_out_race.csv',
-range: 50,
+title: 'Unidentified without race all matches part 1',
+type:'Unidentified',
+csvLocation: '../../csvs/uid_possible_matches_all_with_out_race_part_1',
+range: 10000,
 race: false
 },
 
 
 {
-  id: 55,
-  title: 'Missing with race within 10 miles',
-  type:'Missing',
-  csvLocation: '../../csvs/uid_possible_matches_10_miles_with_race.csv',
+  id: 7,
+  title: 'Unidentified without race all matches part 2',
+  type:'Unidentified',
+  csvLocation: '../../csvs/uid_possible_matches_all_with_out_race_part_2',
   range: 10,
   race: true
 },
