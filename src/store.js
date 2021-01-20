@@ -19,25 +19,25 @@ export const matchDatabase = [
 
 },
 {
-  id: 4,
-  title: 'Unidentified with race within 50 miles',
-  type:'Missing',
-  csvLocation: '../../csvs/uid_possible_matches_50_miles_with_race.csv',
-  range: 10,
-  race: true
-},
-{
-  id: 5,
-  title: 'Unidentified without race within 50 miles',
-  type:'Missing',
-  csvLocation: '../../csvs/uid_possible_matches_50_miles_with_out_race.csv',
-  range: 10,
-  race: true
-},
-
-
-{
   id: 3,
+  title: 'Unidentified with race within 50 miles',
+  type:'Unidentified',
+  csvLocation: '../../csvs/uid_possible_matches_50_miles_with_race.csv',
+  range: 50,
+  race: true
+},
+{
+  id: 4,
+  title: 'Unidentified without race within 50 miles',
+  type:'Unidentified',
+  csvLocation: '../../csvs/uid_possible_matches_50_miles_with_out_race.csv',
+  range: 50,
+  race: false
+},
+
+
+{
+  id: 55,
   title: 'Missing with race within 10 miles',
   type:'Missing',
   csvLocation: '../../csvs/uid_possible_matches_10_miles_with_race.csv',
@@ -45,7 +45,7 @@ export const matchDatabase = [
   race: true
 },
 {
-  id: 4,
+  id: 66,
   title: 'Unidentified without race within 10 miles',
   type:'Missing',
   csvLocation: '../../csvs/uid_possible_matches_10_miles_with_out_race.csv',
